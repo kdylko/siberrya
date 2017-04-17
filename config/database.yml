@@ -26,6 +26,6 @@ production:
     reconnect: false
     database: siberrya_production
     pool: 5
-    username: kdylko
+    username: root
     password: 15Tikos@89
     host: 134.0.118.203
