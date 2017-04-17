@@ -42,10 +42,26 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Use Capistrano for deployment
+gem 'capistrano-rails', group: :development
+gem 'capistrano-rvm', group: :development
+gem 'capistrano-passenger'
+gem 'capistrano-rvm'
+gem 'capistrano'
+gem 'capistrano-secrets-yml'
+gem 'capistrano-linked-files'
+gem 'capistrano-bundler', '~> 1.2'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
+
+group :production do
+gem 'mysql2'
+end
+
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
