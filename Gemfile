@@ -45,6 +45,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
 gem 'capistrano-rvm', group: :development
+gem 'capistrano-secrets-yml', group: :development
 gem 'capistrano-passenger'
 gem 'capistrano-rvm'
 gem 'capistrano'
